@@ -25,3 +25,5 @@ Component Based Styling - Tuesday 2
     - ng-content - will find html tags passed in to a component and render them based on the select="<passed value>"
     - https://plnkr.co/edit/WUjoC897CXuybWvL9qt1?p=preview
     
+Directives - Tuesday - 3
+    - Don't use angular 1
