@@ -4,6 +4,8 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
 
+import { MatSnackBar } from '@angular/material';
+
 @Component({
   selector: 'my-hero-detail',
   templateUrl: './hero-detail.component.html',
@@ -14,6 +16,8 @@ export class HeroDetailComponent implements OnInit {
   @Output() close = new EventEmitter();
   error: any;
   navigated = false; // true if navigated here
+
+  snackBar: MatSnackBar;
 
   constructor(
     private heroService: HeroService,
@@ -39,7 +43,15 @@ export class HeroDetailComponent implements OnInit {
         .save(this.hero)
         .then(hero => {
           this.hero = hero; // saved hero, w/ id if new
-          this.goBack(hero);
+
+          const snackBarRef = this.snackBar.open('Hero saved!', 'Back to list', {
+            duration: 3000
+        });
+
+        snackBarRef.onAction().subscribe(() => {
+            this.goBack(hero);
+        });
+
         })
         .catch(error => this.error = error); // TODO: Display error message
   }

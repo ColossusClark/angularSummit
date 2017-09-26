@@ -1,0 +1,13 @@
+Keynote
+    - Should be updating Angular and Typescript versions as they are released.
+
+Angualar Material - Tuesday - 1
+    - Speaker Twitter Handle- @webmaxru
+    - https://material.io/color - Color testing tool
+    - https://material.io/remixer - Tools to help change some design details
+    - Material toolkits for various js frameworks: Material-Ui, React Toolbox, Vue Material, Vuetify, Materialize, MDL
+    - https://material.angular.io
+    - Angular Material Beta 12 has some major breaking changes.
+    - VSCode Ext. Angular Language Service
+    - Example project start: https://github.com/webmaxru/tour-of-stylish-heroes
+    - Project step by step in 'INSTRUCTIONS.md'

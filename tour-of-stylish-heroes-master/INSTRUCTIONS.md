@@ -10,7 +10,7 @@ __app.module.ts__
 
 `import { MdToolbarModule } from '@angular/material';`
 
-declarations:
+imports:
 `MdToolbarModule`
 
 __app.component.html__
@@ -54,6 +54,12 @@ providers:
 ## Branch step3 - More components, separate module
 
 __custom-material.module.ts__
+
+//Note: Add file under app directory.
+// Add code below to file/ save
+// Add reference to this module in app.module
+//  import { CustomMaterialModule } from './custom-material.module';
+// imports: CustomMaterialModule
 
 ```javascript
 import { NgModule } from '@angular/core';
@@ -188,7 +194,7 @@ __dashboard.component.html__
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <button md-raised-button color="accent" (click)="gotoDetail(hero)">View</button>    
+    <button mat-raised-button color="accent" (click)="gotoDetail(hero)">View</button>    
   </mat-card-actions>
 </mat-card>
 ```
