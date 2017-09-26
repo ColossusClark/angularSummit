@@ -11,3 +11,17 @@ Angualar Material - Tuesday - 1
     - VSCode Ext. Angular Language Service
     - Example project start: https://github.com/webmaxru/tour-of-stylish-heroes
     - Project step by step in 'INSTRUCTIONS.md'
+
+Component Based Styling - Tuesday 2
+    - Blogs listed under gsans
+    - @HostBinding (Styling) - Programatically add a style to a Component. Could use this for loader?
+    - Shadow DOM is the Angular feature that gives components their style encapsulation
+        - Emulated, Native, None (to disable Shadow DOM)
+    - Container Styling (:host)
+    - Context Styling (:host-context) - Allows you to style a container above the component you're working on
+        - :host-context(.theme) { color: red; }
+    - Overriding Styles (>>>) Anti-pattern - Usually bad practice. Breaks Shadow DOM. Can ba used to make changes to third party libraries like d3 or Material Design
+    - Renderer2 allows you to access elementRef styles without a browser. Works outside of traditional browsers
+    - ng-content - will find html tags passed in to a component and render them based on the select="<passed value>"
+    - https://plnkr.co/edit/WUjoC897CXuybWvL9qt1?p=preview
+    
