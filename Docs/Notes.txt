@@ -3,6 +3,7 @@ Keynote
 
 Angualar Material - Tuesday - 1
     - Speaker Twitter Handle- @webmaxru
+    - http://slides.com/gerardsans
     - https://material.io/color - Color testing tool
     - https://material.io/remixer - Tools to help change some design details
     - Material toolkits for various js frameworks: Material-Ui, React Toolbox, Vue Material, Vuetify, Materialize, MDL
@@ -27,3 +28,20 @@ Component Based Styling - Tuesday 2
     
 Directives - Tuesday - 3
     - Don't use angular 1
+
+Advanced Testing - Tuesday - 4
+    - http://slides.com/gerardsanss
+    - StackBlitz
+    - Spies can be used to test observables or other async calls
+    - afterEach(httpMock.verify) - use to verify that there are no open async calls at the end of each test
+
+Tooling - Wednesday - 1
+    - Use testing tools
+    - Plato is decent for showing problem areas in your code base
+
+Routing - Wednesday - 2
+    - Create a separate app.routing.ts file
+    - angular-cli.json allows you to add multiple apps inside the same project. Modify the apps array with new app information.
+    - Router Guard Interfaces might help with our loading screen issues.
+    - Resolver Guards force data to be populated before allowing a user to navigate.
+    - 
