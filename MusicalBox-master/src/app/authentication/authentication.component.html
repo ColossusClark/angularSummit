@@ -1,0 +1,7 @@
+<div *ngIf="$auth | async">
+  <button md-raised-button (click)="logout()" color="primary">Logout</button>
+</div>
+
+<div *ngIf="!($auth | async)">
+  <button md-raised-button (click)="login()" color="primary">Login</button>  
+</div>

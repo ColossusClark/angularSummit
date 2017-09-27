@@ -1,0 +1,4 @@
+<md-list *ngFor="let box of musicalBoxList; let i=index" (click)="onSelectBox(box)">
+  <md-list-item>{{box.name}}</md-list-item>
+  <md-divider></md-divider>
+</md-list>

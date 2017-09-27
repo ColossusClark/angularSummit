@@ -35,7 +35,7 @@ Advanced Testing - Tuesday - 4
     - Spies can be used to test observables or other async calls
     - afterEach(httpMock.verify) - use to verify that there are no open async calls at the end of each test
 
-Tooling - Wednesday - 1
+Tooling - Wednesday - 1 (Check Angular Tooling class. Way to setup Angular project to have required code coverage %)
     - Use testing tools
     - Plato is decent for showing problem areas in your code base
 
@@ -44,4 +44,11 @@ Routing - Wednesday - 2
     - angular-cli.json allows you to add multiple apps inside the same project. Modify the apps array with new app information.
     - Router Guard Interfaces might help with our loading screen issues.
     - Resolver Guards force data to be populated before allowing a user to navigate.
+    - Create a separate module for components that are needed in two modules.
+
+Angular in Legacy Environments - 3
+    - Javascript The Good Parts - Recommended book
+    - Should have written our office build script using Gulp or Grunt
+
+AngularFire - Wednesday - 4
     - 
