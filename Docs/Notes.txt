@@ -51,4 +51,5 @@ Angular in Legacy Environments - 3
     - Should have written our office build script using Gulp or Grunt
 
 AngularFire - Wednesday - 4
-    - 
+    - Firebase provides a good database/server infrastructure for rapid prototyping
+    - AngularFire integrates Firebase into Angular 2 to make seemless connections
