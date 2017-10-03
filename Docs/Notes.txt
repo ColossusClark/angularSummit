@@ -3,7 +3,6 @@ Keynote
 
 Angualar Material - Tuesday - 1
     - Speaker Twitter Handle- @webmaxru
-    - http://slides.com/gerardsans
     - https://material.io/color - Color testing tool
     - https://material.io/remixer - Tools to help change some design details
     - Material toolkits for various js frameworks: Material-Ui, React Toolbox, Vue Material, Vuetify, Materialize, MDL
@@ -30,7 +29,7 @@ Directives - Tuesday - 3
     - Don't use angular 1
 
 Advanced Testing - Tuesday - 4
-    - http://slides.com/gerardsanss
+    - http://slides.com/gerardsans
     - StackBlitz
     - Spies can be used to test observables or other async calls
     - afterEach(httpMock.verify) - use to verify that there are no open async calls at the end of each test
